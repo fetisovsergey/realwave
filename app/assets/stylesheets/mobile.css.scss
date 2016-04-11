@@ -1,0 +1,154 @@
+@import "bootstrap";
+html {
+  overflow-y: scroll;
+}
+
+.navbar
+{
+	background: rgba(0,0,0,0.0);
+	width:100%;
+	text-align:center;
+	.link
+	{
+		color:#000000;
+		font-size:80px;
+		font-family:'main';
+	}
+
+}
+
+
+body
+{
+	text-align:center;
+	font-size:0;
+	background: #F8F8F8;
+}
+
+
+#logo
+{
+	width:22%;
+	margin:0 5%;
+}
+
+.owl-content
+{
+	color:#000000;
+	width:99%;
+	margin:0 auto;
+	padding-top:30px;
+	padding-bottom:0;
+	text-align:center;
+}
+.owl-carousel
+{
+	background: #F8F8F8;
+}
+.owl_icon
+{
+	width:60%;
+}
+
+h1
+{
+	font-family:'archive';
+	font-size:70px;
+	margin-top:0;
+	color: #000000;
+}
+
+h2
+{
+	font:70px 'lobster';
+}
+	
+
+h3,h4
+{
+	font-size:60px;
+	font-family:'avante';
+	color: #000000;
+	line-height:1.5;
+	font-weight:500;
+}
+
+h5
+{
+	color:#000000;
+	line-height:1.5;
+	font: 60px 'main'
+}
+ 
+//To move navigation buttons outside use these settings:
+ 
+.owl-carousel .owl-controls .owl-buttons div {
+  display:none
+}
+
+#contact
+{
+  width: 100%;
+  margin-top:40px;
+  padding:25px;
+  text-align:center;
+  padding-top:50px;
+  color: #FFFFFF;
+  background:#000000;
+  font:60px 'alex';
+  h1
+	{
+		color: #FFFF80;
+	}
+}
+.icon
+{
+	margin:40px;
+	width:100px;
+}
+
+#autoservice
+{
+	background: image-url('autoservice69.png') no-repeat center;
+	background-size:cover;
+}
+
+#realwaves
+{
+	background: image-url('realwaves.png') no-repeat center;
+	background-size:cover;
+}
+
+#showmaps
+{
+	background: image-url('showmaps.png') no-repeat top;
+	background-size:cover;
+}
+
+#reports
+{
+	background: image-url('reportsclub.png') no-repeat top;
+	background-size:cover;
+}
+
+#sergeyfetisov
+{
+	background: image-url('sergeyfetisov.png') no-repeat top;
+	background-size:cover;
+}
+
+#vinylprofi
+{
+	background: image-url('vinylprofi.png') no-repeat top;
+	background-size:cover;
+}
+
+.owl_project
+{
+	width:84%;
+	border-radius:20%;
+	border:3px solid #f0f0f0;
+	margin-bottom:30px;
+}
+
+

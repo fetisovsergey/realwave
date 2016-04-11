@@ -1,0 +1,37 @@
+<% provide(:title, 'Главная страница') %>
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+
+<body>
+	<section id="main" data-type="background" data-speed="10" class="pages">
+		<div class="owl-carousel">
+		  <div class="owl-content">
+		  	<%= image_tag("developer.png",class:"owl_icon") %><br>
+		  	<h2>Интернет-проекты</h2>
+		  	<h4>
+		  		Создание сайтов различной сложности, разработка концепции, макета и многое другое. Если Вам нужен сайт-визитка или что-то покруче, то обращайтесь!
+		  	</h4>
+		  </div>
+		  <div class="owl-content">
+		  	<%= image_tag("interface.png",class:"owl_icon") %><br>
+		  	<h2>Интерфейс</h2>
+		  	<h4>
+		  		Разработка удобного интерфейса с учетом ваших пожеланий, а также целей и концепции сайта.
+		  	</h4>
+		  </div>
+		  <div class="owl-content">
+		  	<%= image_tag("design.png",class:"owl_icon") %><br>
+		  	<h2>Дизайн</h2>
+		  	<h4>
+		  		Создание уникального дизайна, повышение узнаваемости и превлекательности бренда. Никаких шаблонов, только индивидульный подход!
+		  	</h4>
+		  </div>
+		</div>
+		<%= render 'layouts/contact' %>
+	</section>
+	<div style="height:100vh;min-width:1000px">
+	<%= render 'projects/projects' %>
+	</div>
+</body>

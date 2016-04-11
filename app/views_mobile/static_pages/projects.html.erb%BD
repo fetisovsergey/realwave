@@ -1,0 +1,64 @@
+<% provide(:title, 'Проекты') %>
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+
+<body>
+	<div class="owl-carousel">
+		  <div class="owl-content">
+		  		<a href="http://autoservice69.ru" target="_blank" style="text-decoration:none">
+		  		<%= image_tag("autoservice69.png",class:"owl_project") %><br>
+						<h1>АВТОСЕРВИС69</h1>
+						<h3>
+							Персональный сайт команды, миссия которой защитить Ваш автомобиль от угона, а также дополнить его полезным оборудованием
+						</h3>
+				</a>
+		  </div>
+		  <div class="owl-content">
+				<a href="http://realwaves.ru" target="_blank" style="text-decoration:none">
+				<%= image_tag("realwaves.png",class:"owl_project") %><br>
+				<h1>REAL WAVES</h1>
+				<h3>
+						Платформа для представления уникальных вещей и услуг
+				</h3>
+				</a>
+		  </div>
+		  <div class="owl-content">
+				<a href="http://reportsclub.ru" target="_blank" style="text-decoration:none">
+				<%= image_tag("reportsclub.png",class:"owl_project") %><br>
+				<h1>REPORTS</h1>
+					<h3>
+						Геолокационная социальная сеть для обмена мгновенными сообщениями и фотографиями
+					</h3>
+				</a>
+		  </div>
+		  <div class="owl-content">
+		  		<a href="http://sergeyfetisov.ru" target="_blank" style="text-decoration:none">
+		  		<%= image_tag("sergeyfetisov.png",class:"owl_project") %><br>
+				<h1>Sergey Fetisov</h1>
+						<h3>
+							Персональный сайт
+						</h3>
+				</a>
+		  </div>
+		  <div class="owl-content">
+		  		<a href="http://vinylprofi.ru" target="_blank" style="text-decoration:none">
+				<%= image_tag("vinylprofi.png",class:"owl_project") %><br>
+				<h1>ВИНИЛПРОФИ</h1>
+					<h3>
+						Оригинальный стиль и узнаваемость твоего автомобиля
+					</h3>
+				</a>
+		  </div>
+		  <div class="owl-content">
+		  		<a href="http://showmaps.ru" target="_blank" style="text-decoration:none">
+		  		<%= image_tag("showmaps.png",class:"owl_project") %><br>
+				<h1>SHOWMAPS</h1>
+				<h3>
+					Веб-приложение для обмена картами. Поделись картой с друзьями!
+				</h3>
+				</a>
+		  </div>
+	</div>
+</body>

@@ -1,0 +1,237 @@
+@import "bootstrap";
+/* mixins, variables, etc. */
+
+html {
+  overflow-y: scroll;
+}
+
+.navbar
+{
+	background: rgba(0,0,0,0.0);
+	min-width:600px;
+	.link
+	{
+		color:#000000;
+		font-size:35px;
+		font-family:'main';
+		padding:20px 0;
+	}
+
+}
+
+#logo
+{
+	width:100px;
+	margin:10px 10%;
+}
+
+body
+{
+	text-align:center;
+	font-size:0;
+	background: #F8F8F8;
+}
+#main
+{
+  width: 100vw;
+  
+  min-width:600px;
+  min-height:800px;
+  padding-top:2vh;
+  height: 84vh;
+  position:relative;
+}
+
+#contact
+{
+  width: 100vw;
+  min-width:600px;
+  padding:25px;
+  position:absolute;
+  bottom:0;
+  color: #FFFFFF;
+  background:rgba(0,0,0,1);
+  font:30px 'alex';
+  h1
+  {
+  	color: #FFFF80;
+  }
+}
+
+
+h1
+{
+	font-family:'archive';
+	font-size:40px;
+	margin-top:0;
+}
+
+h2
+{
+	font:42px 'lobster';
+}
+	
+h4
+{
+	font-size:28px;
+	font-family:'avante';
+}
+
+h3
+{
+	font-size:26px;
+	font-family:'main';
+}
+
+h5
+{
+	color:#000000;
+	line-height:1.5;
+	font: 40px 'main'
+}
+#autoservice
+{
+	background: image-url('autoservice69.png') no-repeat center;
+	background-size:cover;
+}
+
+#realwaves
+{
+	background: image-url('realwaves.png') no-repeat center;
+	background-size:cover;
+}
+
+#showmaps
+{
+	background: image-url('showmaps.png') no-repeat top;
+	background-size:cover;
+}
+
+#reports
+{
+	background: image-url('reportsclub.png') no-repeat top;
+	background-size:cover;
+}
+
+#sergeyfetisov
+{
+	background: image-url('sergeyfetisov.png') no-repeat top;
+	background-size:cover;
+}
+
+#vinylprofi
+{
+	background: image-url('vinylprofi.png') no-repeat top;
+	background-size:cover;
+}
+
+
+.cover
+{
+	width:33.33%;
+	display:inline-block;
+  	#height:48vh;
+  	min-height:450px;
+  	vertical-align:middle;
+}
+
+.projects
+{
+	width:100%;
+	border-radius:5px;
+}
+
+.text
+{
+	color:rgba(0,0,0,0);
+	padding:0 20px;
+	padding-top:47%;
+	text-align:center;
+	height:100%;
+	min-height:450px;
+	-webkit-transition: all 0.2s ease;
+     -moz-transition: all 0.2s ease;
+       -o-transition: all 0.2s ease;
+      -ms-transition: all 0.2s ease;
+          transition: all 0.2s ease;
+}
+.text:hover
+{
+	h1
+	{
+	color: #FFFF80;
+	}
+	background: rgba(0,0,0,0.9);
+	color:rgba(255,255,255,1);
+	-webkit-transition: all 0.2s ease;
+     -moz-transition: all 0.2s ease;
+       -o-transition: all 0.2s ease;
+      -ms-transition: all 0.2s ease;
+          transition: all 0.2s ease;
+}
+
+.icon
+{
+	padding:20px 30px;
+	width:70px;
+	-webkit-filter: invert(15%);
+}
+.icon:hover
+{
+	-webkit-filter: invert(0%);
+}
+
+.owl-content
+{
+	color:#000000;
+}
+.owl-carousel
+{
+	border-radius:100px;
+	padding: 30px 75px;
+	width:80%;
+	margin:0 auto;
+	background: #F0F0F0;
+}
+.owl_icon
+{
+	height:21vh;
+	min-height:130px;
+}
+ 
+ 
+//To move navigation buttons outside use these settings:
+ 
+.owl-carousel .owl-controls .owl-buttons div {
+  position: absolute;
+  width:30px;
+  height:30px;
+  padding-top:10px;
+  border-radius:50%;
+  font-size:20px;
+}
+ 
+.owl-carousel .owl-controls .owl-buttons .owl-prev{
+  left: 10px;
+  top: 45%; 
+}
+ 
+.owl-carousel .owl-controls .owl-buttons .owl-next{
+  right: 10px;
+  top: 45%;
+}
+
+/* footer */
+
+footer
+{
+	position:fixed;
+	width:100%;
+	padding:8px;
+	bottom:0;
+	text-align:center;
+	font: 15px 'decker';
+	letter-spacing:1px;
+	color: #E6E6E6;
+	background: rgba(0,0,0,1);
+}
